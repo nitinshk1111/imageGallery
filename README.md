@@ -78,3 +78,6 @@ Results should be presented in a grid with column gap `30px` and row gap `30px`,
 - You can't change any tests
 - All `tslint` errors must be resolved
 - Grid should be displayed correctly on Chrome and Firefox
+=======
+# imageGallery
+responsive image gallary
