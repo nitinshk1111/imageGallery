@@ -1,0 +1,50 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+:host {
+  margin: 32px 0 0 0;
+}
+
+mat-card {
+  position: relative;
+  width: 28%;
+  margin: 15px;
+
+  .entity-image {
+    object-fit: cover;
+    height: 350px;
+  }
+
+  .entity-rating {
+    position: absolute;
+    right: 24px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1100px) {
+  mat-card {
+    min-width: 38%;
+    margin: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  mat-card {
+    width: 100%;
+    margin: 15px 30px;
+  }
+}
+
